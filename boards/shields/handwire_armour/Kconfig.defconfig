@@ -1,0 +1,17 @@
+if SHIELD_HANDWIRE_ARMOUR_RIGHT
+
+# Name less than 16 char
+config ZMK_KEYBOARD_NAME
+    default "Handwire Armour"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_HANDWIRE_ARMOUR_RIGHT || SHIELD_HANDWIRE_ARMOUR_LEFT
+
+config ZMK_SPLIT
+    default y
+
+endif

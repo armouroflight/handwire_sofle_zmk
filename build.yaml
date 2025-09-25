@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_left
+    shield: handwire_armour_left
   - board: nice_nano_v2
-    shield: corne_right
+    shield: handwire_armour_right
